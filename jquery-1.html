@@ -41,7 +41,18 @@
       $("h2").show();
       $("h3").show();
     }
-  </script>
 
+    function highlightByline(){
+      $(".byline").addClass("highlight");
+    }
+    function unhighlightByline(){
+      $(".byline").removeClass("highlight");
+    }
+  </script>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
 </body>
 </html>
